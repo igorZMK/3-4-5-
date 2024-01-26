@@ -9,11 +9,10 @@
   background-color: white;
   border: none;
 }
-.button_language__button:hover {
-  filter: opacity(50%);
-}
+
 .button:hover {
   filter: opacity(50%);
+  transition: filter 1s;
 }
 .mobile-menu__header {
   padding: 18px 24px 0px 24px;
@@ -56,6 +55,9 @@
 }
 .button-menu__button_repair {
   position: relative;
+}
+.active {
+  filter: opacity(50%);
 }
 .button-menu__button_repair::before {
   content: "";
